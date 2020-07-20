@@ -1,6 +1,6 @@
 import MovieDB from '@leonardocabeza/the-movie-db';
 const mdb = new MovieDB.v3('13da230cb593ae9189195d35b4ef9168');
-const createImageSource = (url, baseUrl) => url ? `${baseUrl}w185/${url}` : '';
+const createImageSource = (url, baseUrl) => url ? `${baseUrl}w342/${url}` : '';
 
 const applyConfigurationOnMovies = (movies = [], config) => {
     return movies.map(movie => {
